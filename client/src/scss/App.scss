@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, system-ui, Roboto,
+    "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -23,11 +23,17 @@ body {
       z-index: 10;
       background-color: rgba(0, 0, 0, 0) !important;
 
+      .navbar-brand {
+        font-weight: 600;
+      }
+
       .dropdown-menu {
         min-width: 0;
       }
 
       .nav-link {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
         &.active {
           color: #008cff;
         }
